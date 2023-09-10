@@ -1,0 +1,23 @@
+
+.welcome{
+    height: 82vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+}
+@media  screen and (max-width:769px) {
+  
+    h1{
+        text-align: center;
+        margin-top: 100px;
+    }
+    body{
+        width: 100%;
+    }
+
+
+}
